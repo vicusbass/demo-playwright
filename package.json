@@ -1,0 +1,28 @@
+{
+  "name": "demo-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Vasile Pop",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.35.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "fsevents": "^2.3.2",
+    "playwright-core": "^1.35.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vicusbass/demo-playwright.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vicusbass/demo-playwright/issues"
+  },
+  "homepage": "https://github.com/vicusbass/demo-playwright#readme",
+  "description": ""
+}
