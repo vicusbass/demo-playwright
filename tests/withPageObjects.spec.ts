@@ -15,6 +15,7 @@ test.describe('Contact form', () => {
     await homePage.openContactForm()
     await expect(homePage.page).toHaveURL(/.*contact/)
 
+    //TODO kind of debatable UX on Hubspot lazy form
     await contactPage.showContactForm()
 
     await contactPage.typeEmail('oh no')
